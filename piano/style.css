@@ -21,7 +21,7 @@ body{
     z-index: -100;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(42deg, #df8c95, #bea6b0, #8ebecb, #15d3e7);/*我觉得还行.jpg byaei*/
+    background-image: linear-gradient(42deg, #df8c95, #bea6b0, #8ebecb, #15d3e7);
     transition: 0.5s;
 }
 /*引言部分*/
@@ -69,7 +69,7 @@ body{
     opacity: 0;
     cursor: pointer;
 }
-/*记录一下 现在的z-index 最大6  最小 -100（body）  byaei*/
+/*记录一下 现在的z-index 最大6  最小 -100（body）*/
 /*记录 点击完play 现在所有的的按钮都<-200  max 6*/
 #box{
     opacity: 0;
@@ -152,8 +152,6 @@ body{
 
 
 
-
-/*by aei*/
 
 /*响应式的rem适应*/
 html {
