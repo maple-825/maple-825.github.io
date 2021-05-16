@@ -156,8 +156,8 @@ function fl(e)
         boxup.style.opacity=1;  
         bac.style.opacity=1;
         },500);
-        if(s.indexOf("QW")!=-1&&records==0)
-        // if(s.indexOf("QWERTYQWERTYASDF")!=-1&&records==0)
+        // if(s.indexOf("QW")!=-1&&records==0)
+        if(s.indexOf("QWERTYQWERTYASDF")!=-1&&records==0)
         {
             setTimeout(function()
             {
