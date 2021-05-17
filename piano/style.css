@@ -3,7 +3,7 @@
     border: 0;
 }
 /*
-设置body，在网页变换的时候实现背景不是纯白色，显得突兀
+设置body，在网页变换的时候实现背景不是纯白色
 */
 body{
     position: absolute;
