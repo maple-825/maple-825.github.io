@@ -161,7 +161,7 @@ body {
   .sky-container__left {
     margin-right: 5px;
   }
-  .sky-container .thirty-one {
+  .sky-container .day {
     letter-spacing: 4px;
   }
   
@@ -173,7 +173,7 @@ body {
     text-align: left;
   }
   
-  .twitter:hover a {
+  /* .twitter:hover a {
     transform: rotate(-45deg) scale(1.05);
   }
   .twitter:hover i {
@@ -223,4 +223,4 @@ body {
     bottom: 7px;
     left: 7px;
     color: #E62117;
-  }
+  } */
