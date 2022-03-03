@@ -11,7 +11,7 @@ function change() {
             break;
     }
     $("main div").click(function() {
-        var html = '<video src="' + "min/" + $(this).text() + ".mp3" + '" autoplay></video>';
+        var html = '<audio src="' + "min/" + $(this).text() + ".mp3" + '" autoplay></audio>';
         $("body").append(html);
     });
 }
@@ -20,7 +20,7 @@ function change() {
 
 $(document).ready(function() {
     $("main div").click(function() {
-        var html = '<video src="' + "min/" + $(this).text() + ".mp3" + '" autoplay></video>';
+        var html = '<audio src="' + "min/" + $(this).text() + ".mp3" + '" autoplay></audio>';
         $("body").append(html);
     });
 
