@@ -34,11 +34,11 @@
     <div class="sky-container">
         <div class="text-right sky-container__left">
             <h2 class="portfolio">
-                ♥&nbsp;&nbsp;&nbsp;&nbsp;
+                日&nbsp;&nbsp;&nbsp;
             </h2>
             <br>
             <h2 class="resurrection">
-                始&nbsp;于&nbsp;
+                期&nbsp;&nbsp;&nbsp;
             </h2>
         </div>
         <div class="text-left sky-container__right">
@@ -53,6 +53,16 @@
             </h2>
         </div>
     </div>
+    <script>
+        let date=new Date();
+        let month=date.getMonth();
+        let day=date.getDate();
+        let year=date.getFullYear();
+        document.getElementsByClassName("month")[0].innerHTML=month+1+"月";
+        document.getElementsByClassName("day")[0].innerHTML=day+"日";
+        document.getElementsByClassName("year")[0].innerHTML=year;
+        console.log(document.getElementsByClassName("year")[0]);
+    </script>
     <script src='js/jquery.min.js'></script>
     <script src='js/TweenMax.min.js'></script>
     <script src='js/three.min.js'></script>
